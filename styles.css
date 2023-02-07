@@ -34,6 +34,11 @@ body {
 }
 
 .tip-button:hover {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#last:hover {
   background-color: gray;
   cursor: pointer;
 }
