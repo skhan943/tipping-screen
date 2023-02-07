@@ -33,6 +33,11 @@ body {
   color: #12b0c5;
 }
 
+.tip-button:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
 #last {
   width: 100%;
 }
