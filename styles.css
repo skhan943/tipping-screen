@@ -1,0 +1,43 @@
+body {
+  max-height: 95vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.75fr 1fr 0.25fr;
+
+  background-color: #ededed;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.tip-box {
+  margin: auto;
+  grid-row: 2/3;
+
+  background-color: white;
+  padding: 20px;
+
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 20px;
+
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+.tip-button {
+  background-color: #ededed;
+  font-size: 60px;
+  padding: 20px;
+  border-style: hidden;
+  color: #12b0c5;
+}
+
+#last {
+  width: 100%;
+}
+
+footer {
+  grid-row: 3/4;
+  font-size: 20px;
+}
